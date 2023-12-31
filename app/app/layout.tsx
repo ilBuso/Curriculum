@@ -1,8 +1,12 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Courier_Prime } from 'next/font/google'
+
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const courier_prime = Courier_Prime({
+  subsets: ['latin'],
+  weight: '400',
+})
 
 export const metadata: Metadata = {
   title: 'Alessandro Busola',
@@ -16,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={courier_prime.className}>
         {children}
       </body>
     </html>
