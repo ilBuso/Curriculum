@@ -19,7 +19,7 @@ export default function Home() {
             <h1>{DATA.name}</h1>
             <p className='parag'>
               <div>{DATA.description}</div>
-              <div className='inline_flex'><GlobeIcon className='logos'/>{DATA.location}</div>
+              <div className='position'><GlobeIcon className='logos'/>{DATA.location}</div>
             </p>
             <div className='button_container'>
               <a href={`mailto:${DATA.contacts.email}`}>

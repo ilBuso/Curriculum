@@ -27,11 +27,6 @@ p {
     color: gray;
 }
 
-.logos {
-    width: .75rem;
-    height: .75rem;
-}
-
 button {
     margin-right: .5rem;
     padding: .1rem .08rem 0 0;
@@ -109,6 +104,16 @@ section {
 
 /****************************************************/
 /* home */
+.logos {
+    width: .75rem;
+    height: .75rem;
+}
+
+.position {
+    display: inline-flex;
+    gap: .5rem;
+}
+
 .social_logo {
     height: 2rem;
     width: 2rem;

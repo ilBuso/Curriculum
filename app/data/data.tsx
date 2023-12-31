@@ -38,7 +38,7 @@ export const DATA = {
         ],
     },
     education: {
-        title: "Education",
+        title: "Educazione",
         schools: [
             {
                 name: "ISS Calabrese-Levi",
