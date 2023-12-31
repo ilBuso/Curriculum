@@ -4,8 +4,8 @@ import { linkedin } from '@/components/icons/linkedin'
 export const DATA = {
 
     name: "Alessandro Busola",
-    description: "",
-    location: "IT",
+    description: "Studente di informatica al 2° anno presso l'università di Trento",
+    location: "Verona, Italia",
     contacts: {
         tel: "+39 3333333333",
         email: "alessandro.busola@gmail.com",
@@ -17,23 +17,23 @@ export const DATA = {
             },
             {
                 name: "LinkedIn",
-                url: "",
+                url: "https://www.linkedin.com/in/alessandro-busola",
                 icon: linkedin,
             },
         ],
     },
     about: {
-        title: "About",
-        text: "ma vattenne",
+        title: "Profilo",
+        text: "Sono uno studente di Informatica con una grande passione per tutto il mondo del Software e Hardware. Nel tempo libero mi piace portare avanti i miei 'Side Projects' e informarimi sulle ultrime novità nel campo della tecnologia. Sono sempre aperto a nuove esperienze e ad imparare nuove cose.",
     },
     work: {
-        title: "Work Experiences",
+        title: "Esperienze",
         exp: [
             {
-                where: "Dunno",
-                when: "Dunno",
-                role: "Dunno",
-                text: "Dunno",
+                where: "Rifugio Dardo",
+                when: "2019 - Now",
+                role: "Camerire",
+                text: "Durante la vacanze estive lavoro come cameriere presso un rifugio nelle montagne della Lessinia",
             },
         ],
     },
@@ -45,19 +45,19 @@ export const DATA = {
                 type: "Liceo Scientifico Scienze Applicate",
                 where: "San Floriano, Verona, Italia",
                 when: "2016 - 2022",
-                text: "studi generali",
+                text: "Diploma di scuola superiore",
             },
             {
                 name: "Università degli Studi di Trento",
                 type: "Univerità",
                 where: "Trento, Italia",
                 when: "2022 - Now",
-                text: "Informatica",
+                text: "Cosro di Laurea Triennale in Informatica",
             },
         ],
     },
     skill: {
-        title: "Skills",
+        title: "Abilità",
         skill: [
             "C",
             "C++",
@@ -67,11 +67,11 @@ export const DATA = {
         ]
     },
     projects: {
-        title: "Projects",
+        title: "Progetti",
         prjct:[
             {
                 title: "Tris",
-                description: "Tris in C",
+                description: "Gioco di Tris in C",
                 link: "https://github.com/ilBuso/Tris",
                 tag: [
                     "C",
@@ -81,7 +81,7 @@ export const DATA = {
             },
             {
                 title: "buso-ohmyzsh-theme",
-                description: "OhMyZsh theme",
+                description: "Un tema per zsh con OhMyZsh",
                 link: "https://github.com/ilBuso/buso-ohmyzsh-theme",
                 tag: [
                     "zsh",
@@ -101,7 +101,7 @@ export const DATA = {
             },
             {
                 title: "Portfolio",
-                description: "This CV",
+                description: "Curriculum Web (questa pagina web)",
                 link: "https://github.com/ilBuso/Portfolio",
                 tag: [
                     "Next.js",

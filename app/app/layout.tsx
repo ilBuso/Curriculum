@@ -8,6 +8,7 @@ const courier_prime = Courier_Prime({
   weight: '400',
 })
 
+
 export const metadata: Metadata = {
   title: 'Alessandro Busola',
   description: 'My online resume',

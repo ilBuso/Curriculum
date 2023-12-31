@@ -8,19 +8,14 @@ interface elements {
   
 export function School({ name, type, where, when, text }: elements) {
     return (
-        <p>
+        <div className='school_name'>
             <div>
-                <h3>{name}</h3>
+                <h3>{name}</h3> - ({when})
             </div>
-            <div>
-                {type} ({when})
-            </div>
-            <div>
-                {where}
-            </div>
-            <div>
-                {text}
-            </div>
-        </p> 
+
+            <div className='type_role'>{type} - <div className='school_where'>{where}</div></div>
+
+            <p>{text}</p>
+        </div> 
     );
 }

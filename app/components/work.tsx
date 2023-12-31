@@ -7,16 +7,13 @@ interface elements {
   
 export function Work({ where, when, role, text }: elements) {
     return (
-        <p>
+        <div>
             <div>
-                <h3>{where}</h3>
+                <h3>{where}</h3> - ({when})
             </div>
-            <div>
-                {role} ({when})
-            </div>
-            <div>
-                {text}
-            </div>
-        </p> 
+                
+            <div className='type_role'>{role}</div>
+            <p>{text}</p>
+        </div> 
     );
 }

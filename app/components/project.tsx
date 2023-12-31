@@ -1,4 +1,4 @@
-import { Skill } from "./skill";
+import { Tag } from "./tag"
 
 interface elements {
     title: string;
@@ -9,21 +9,21 @@ interface elements {
   
 export function Project({ title, description, link, tag }: elements) {
     return (
-        <div>
+        <div className='prjct_item'>
             <div>
                 <a href={link}
                 target='_blank'>
-                    <h3>{title}</h3>
+                    <div className='prjct_title'>{title}</div>
                 </a>
             </div>
-            <div>
+            <p>
                 {description}
-            </div>
-            <div>
+            </p>
+            <div className='tag_container'>
                 {tag.map((tag) => {
                     return (
-                        <Skill key={tag}
-                            skill={tag}
+                        <Tag key={tag}
+                            tag={tag}
                         />
                     )
                 })}

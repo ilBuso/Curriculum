@@ -1,13 +1,14 @@
 import Image from 'next/image'
-import { Button } from 'antd';
+import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 
 import { DATA } from "@/data/data";
 import { Project } from '@/components/project';
 import { School } from '@/components/school';
 import { Skill } from '@/components/skill';
-
-import headshot from '@/img/duck.jpg'
 import { Work } from '@/components/work';
+
+import headshot from '@/img/orange.png'
+
 
 export default function Home() {
   return (
@@ -16,22 +17,33 @@ export default function Home() {
         <div className='title'>
           <div>
             <h1>{DATA.name}</h1>
-            <p>{DATA.description}</p>
-            <p>{DATA.location}</p>
-            <div>
+            <p className='parag'>
+              <div>{DATA.description}</div>
+              <div className='inline_flex'><GlobeIcon className='logos'/>{DATA.location}</div>
+            </p>
+            <div className='button_container'>
+              <a href={`mailto:${DATA.contacts.email}`}>
+                <button className='social_logo'>
+                  <MailIcon className='icon'/>
+                </button>
+              </a>
+              <a href={`tel:${DATA.contacts.tel}`}>
+                <button className='social_logo'>
+                  <PhoneIcon className='icon' />
+                </button>
+              </a>
               {DATA.contacts.social.map((social) => (
-                <Button key={social.name} className="social_logo" >
-                  <a href={social.url}>
-                    <social.icon className="icon" />
-                  </a>
-                </Button>
+                <a key={social.name} href={social.url} target='_blank'>
+                  <button  className='social_logo'>
+                    <social.icon className='icon' />
+                  </button>
+                </a>
+                
               ))}
             </div>
-            <div><a href={`emailto:${DATA.contacts.email}`}>{DATA.contacts.email}</a></div>
-            <div><a href={`tel:${DATA.contacts.tel}`}>{DATA.contacts.tel}</a></div>
           </div>
           <span>
-            <Image src={headshot} alt={'HeadShot'} height={112} width={112}/>
+            <Image src={headshot} alt={'HeadShot'} height={150} width={150}/>
           </span>
         </div>
         <section>
@@ -40,8 +52,8 @@ export default function Home() {
         </section>
         <section>
           <h2>{DATA.work.title}</h2>
-          <p>
-          {DATA.work.exp.map((exp) => {
+          <div>
+            {DATA.work.exp.map((exp) => {
               return (
                 <Work key={exp.where}
                   where={exp.where}
@@ -51,11 +63,11 @@ export default function Home() {
                 />
               );
             })}
-          </p>
+          </div>
         </section>
         <section>
           <h2>{DATA.education.title}</h2>
-          <p>
+          <div>
             {DATA.education.schools.map((schools) => {
               return (
                 <School key={schools.name}
@@ -67,11 +79,11 @@ export default function Home() {
                 />
               );
             })}
-          </p>
+          </div>
         </section>
         <section>
           <h2>{DATA.skill.title}</h2>
-          <div>
+          <div className='skill_container'>
             {DATA.skill.skill.map((skill) => {
               return (
                 <Skill key={skill}
@@ -83,7 +95,7 @@ export default function Home() {
         </section>
         <section className='projects'>
           <h2>{DATA.projects.title}</h2>
-          <div>
+          <div className='prjct_container'>
             {DATA.projects.prjct.map((prjct) => {
               return (
                 <Project key={prjct.title}

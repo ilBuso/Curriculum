@@ -4,7 +4,7 @@ interface elements {
   
 export function Skill({ skill }: elements) {
     return (
-        <div>
+        <div className='skill_item'>
             {skill}
         </div> 
     );

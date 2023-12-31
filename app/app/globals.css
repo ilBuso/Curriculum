@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 /****************************************************/
 /*genereal*/
 html, body{
@@ -8,10 +10,42 @@ html, body{
     box-sizing: border-box;
 }
 
-/****************************************************/
-/*body*/
-body {
+h1, h2, h3, h4, .prjct_title {
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
 
+h2, h3 {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+p {
+    color: gray;
+}
+
+.logos {
+    width: .75rem;
+    height: .75rem;
+}
+
+button {
+    margin-right: .5rem;
+    padding: .1rem .08rem 0 0;
+
+    background-color: white;
+
+    border: 1px solid lightgray;
+    border-radius: .5rem;
+
+    text-align: center;
+}
+
+button:hover {
+    background-color: lightgray;
 }
 
 /****************************************************/
@@ -28,7 +62,6 @@ main {
 }
 
 .container {
-
     background-color: white;
 
     width: 100%;
@@ -39,11 +72,6 @@ main {
     
     padding-top: 2rem;
     padding-bottom: 2rem;
-  
-    @media print {
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
-    }    
 }
 
 .title {
@@ -80,12 +108,146 @@ section {
 }
 
 /****************************************************/
-/* side */
+/* home */
 .social_logo {
     height: 2rem;
     width: 2rem;
 }
 .icon {
+    display: inline-flex;
+    align-items: baseline;
+    gap: .25rem;
+
+    color: gray;
+
     height: 1rem;
     width: 1rem;
+}
+
+.parag {
+    max-width: 85%;
+}
+
+/****************************************************/
+/* work */
+.type_role {
+    color: black;
+    font-weight: bold;
+}
+
+/****************************************************/
+/* education */
+div > h3 {
+    display: inline-block;
+
+}
+
+h3 {
+    color: black;
+}
+
+div > .school_where {
+    display: inline-block;
+}
+
+.school_where {
+    color: gray;
+    font-weight: initial;
+}
+
+/****************************************************/
+/* skill */
+.skill_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: flex-start;
+    gap: .25rem;
+
+    align-items: baseline;
+}
+
+.skill_item {
+    width: auto;
+    height: auto;
+
+    padding: .25rem 1rem 0.1rem 1rem;
+
+    background-color: rgba(54, 54, 54, 0.846);
+    color: white;
+
+    border-radius: .5rem;
+
+    font-size: medium;
+}
+
+/****************************************************/
+/* project */
+.prjct_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: space-evenly;
+    gap: 1rem;
+
+    align-items: stretch;
+    
+}
+
+.prjct_item {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 10rem;
+    height: 10rem;
+
+    padding: 1rem;
+
+    border: 1px solid lightgray;
+    border-radius: .5rem;
+
+    font-size: small;
+    font-weight: light;
+}
+
+.prjct_title {
+    font-size: large;
+    font-weight: bolder;
+
+    color: black;
+}
+
+.prjct_item > div {
+    padding: .25rem 0 .25rem 0;
+}
+
+/****************************************************/
+/* tag */
+.tag_container {
+    align-self: stretch;
+    flex-grow: 3;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: flex-start;
+    gap: .25rem;
+
+    align-items: baseline;
+    align-content: flex-end;
+}
+
+.tag_item {
+    width: auto;
+    height: auto;
+
+    padding: .25rem 1rem 0.1rem 1rem;
+
+    background-color: lightgray;
+
+    border-radius: .5rem;
+
+    font-size: smaller;
 }
