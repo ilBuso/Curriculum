@@ -1,258 +1,274 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Roboto+Condensed&display=swap');
 
 /****************************************************/
 /*genereal*/
 html, body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier Prime', monospace !important;
 }
 
 h1, h2, h3, h4, .prjct_title {
-    font-family: 'Roboto Condensed', sans-serif !important;
+  font-family: 'Roboto Condensed', sans-serif !important;
 }
 
 h2, h3 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 a {
-    text-decoration: none;
-    color: gray;
+  text-decoration: none;
+  color: gray;
 }
 
 p {
-    color: gray;
+  color: gray;
 }
 
 button {
-    margin-right: .5rem;
-    padding: .1rem .08rem 0 0;
+  margin-right: .5rem;
+  padding: .1rem .08rem 0 0;
 
-    background-color: white;
+  background-color: white;
 
-    border: 1px solid lightgray;
-    border-radius: .5rem;
+  border: 1px solid lightgray;
+  border-radius: .5rem;
 
-    text-align: center;
+  text-align: center;
 }
 
 button:hover {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 /****************************************************/
 /* main */
 main {
-    position: relative;
+  position: relative;
 
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 
-    padding: 1rem;
+  padding: 1rem;
 
-    overflow: auto;
+  overflow: auto;
 }
 
 .container {
-    background-color: white;
+  background-color: white;
 
-    width: 100%;
-    max-width: 700px;
+  width: 100%;
+  max-width: 700px;
 
-    margin-left: auto;
-    margin-right: auto;
-    
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .title {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;    
 }
 
 span {
-    position: relative;
+  position: relative;
 
-    display: flex;
-    flex-shrink: 0;
+  display: flex;
+  flex-shrink: 0;
 
-    overflow: hidden;
+  overflow: hidden;
 
-    border-radius: 1.5rem;
+  border-radius: 1.5rem;
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 
-    min-height: 0;
+  min-height: 0;
 }
 
 .projects {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 
-    min-height: 0;
+  min-height: 0;
 }
 
 /****************************************************/
 /* home */
 .logos {
-    width: .75rem;
-    height: .75rem;
+  width: .75rem;
+  height: .75rem;
 }
 
 .position {
-    display: inline-flex;
-    gap: .5rem;
+  display: inline-flex;
+  gap: .5rem;
+
+  margin-top: .5rem;
 }
 
+.button_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  align-content: space-between;
+  gap: .25rem;
+
+  margin-top: .5rem;
+}
 .social_logo {
-    height: 2rem;
-    width: 2rem;
+  height: 2rem;
+  width: 2rem;
 }
 .icon {
-    display: inline-flex;
-    align-items: baseline;
-    gap: .25rem;
+  color: gray;
 
-    color: gray;
-
-    height: 1rem;
-    width: 1rem;
+  height: 1rem;
+  width: 1rem;
 }
 
 .parag {
-    max-width: 85%;
+  max-width: 85%;
+
+  margin-bottom: 1rem;
+
+  color: gray;
 }
 
 /****************************************************/
 /* work */
 .type_role {
-    color: black;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
 }
 
 /****************************************************/
 /* education */
 div > h3 {
-    display: inline-block;
+  display: inline-block;
 
 }
 
 h3 {
-    color: black;
+  color: black;
 }
 
 div > .school_where {
-    display: inline-block;
+  display: inline-block;
 }
 
 .school_where {
-    color: gray;
-    font-weight: initial;
+  color: gray;
+  font-weight: initial;
 }
 
 /****************************************************/
 /* skill */
 .skill_container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-flow: flex-start;
-    gap: .25rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: flex-start;
+  gap: .25rem;
 
-    align-items: baseline;
+  align-items: baseline;
 }
 
 .skill_item {
-    width: auto;
-    height: auto;
+  width: auto;
+  height: auto;
 
-    padding: .25rem 1rem 0.1rem 1rem;
+  padding: .25rem 1rem 0.1rem 1rem;
 
-    background-color: rgba(54, 54, 54, 0.846);
-    color: white;
+  background-color: rgba(54, 54, 54, 0.846);
+  color: white;
 
-    border-radius: .5rem;
+  border-radius: .5rem;
 
-    font-size: medium;
+  font-size: medium;
 }
 
 /****************************************************/
 /* project */
 .prjct_container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-flow: space-evenly;
-    gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: space-evenly;
+  gap: 1rem;
 
-    align-items: stretch;
-    
+  align-items: stretch;
+  
 }
 
 .prjct_item {
-    flex-grow: 1;
+  flex-grow: 1;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    width: 10rem;
-    height: 10rem;
+  width: 10rem;
+  height: 10rem;
 
-    padding: 1rem;
+  padding: 1rem;
 
-    border: 1px solid lightgray;
-    border-radius: .5rem;
+  border: 1px solid lightgray;
+  border-radius: .5rem;
 
-    font-size: small;
-    font-weight: light;
+  font-size: small;
+  font-weight: light;
 }
 
 .prjct_title {
-    font-size: large;
-    font-weight: bolder;
+  font-size: large;
+  font-weight: bolder;
 
-    color: black;
+  color: black;
 }
 
 .prjct_item > div {
-    padding: .25rem 0 .25rem 0;
+  padding: .25rem 0 .25rem 0;
 }
 
 /****************************************************/
 /* tag */
 .tag_container {
-    align-self: stretch;
-    flex-grow: 3;
+  align-self: stretch;
+  flex-grow: 3;
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-flow: flex-start;
-    gap: .25rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: flex-start;
+  gap: .25rem;
 
-    align-items: baseline;
-    align-content: flex-end;
+  align-items: baseline;
+  align-content: flex-end;
 }
 
 .tag_item {
-    width: auto;
-    height: auto;
+  width: auto;
+  height: auto;
 
-    padding: .25rem 1rem 0.1rem 1rem;
+  padding: .25rem 1rem 0.1rem 1rem;
 
-    background-color: lightgray;
+  background-color: lightgray;
 
-    border-radius: .5rem;
+  border-radius: .5rem;
 
-    font-size: smaller;
+  font-size: smaller;
 }

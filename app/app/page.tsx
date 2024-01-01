@@ -17,10 +17,10 @@ export default function Home() {
         <div className='title'>
           <div>
             <h1>{DATA.name}</h1>
-            <p className='parag'>
+            <div className='parag'>
               <div>{DATA.description}</div>
               <div className='position'><GlobeIcon className='logos'/>{DATA.location}</div>
-            </p>
+            </div>
             <div className='button_container'>
               <a href={`mailto:${DATA.contacts.email}`}>
                 <button className='social_logo'>
