@@ -36,4 +36,4 @@ Feel free to navigate through the different sections and learn more about my pro
 
 If you encounter any issues accessing the website, here's a screenshot:
 
-![CV](./app/img/screenshot.png)
+![CV](./img/screenshot.png)
