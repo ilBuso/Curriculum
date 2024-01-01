@@ -7,7 +7,7 @@ export const DATA = {
     description: "Studente di informatica al 2° anno presso l'università di Trento",
     location: "Verona, Italia",
     contacts: {
-        tel: "+39 3333333333",
+        tel: "+39 3333333333", //this number is wrong don't try to call it
         email: "alessandro.busola@gmail.com",
         social: [
             {

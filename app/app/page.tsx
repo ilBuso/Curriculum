@@ -27,11 +27,11 @@ export default function Home() {
                   <MailIcon className='icon'/>
                 </button>
               </a>
-              <a href={`tel:${DATA.contacts.tel}`}>
+              {/*<a href={`tel:${DATA.contacts.tel}`}>
                 <button className='social_logo'>
                   <PhoneIcon className='icon' />
                 </button>
-              </a>
+              </a>*/}
               {DATA.contacts.social.map((social) => (
                 <a key={social.name} href={social.url} target='_blank'>
                   <button  className='social_logo'>
