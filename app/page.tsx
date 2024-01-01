@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/image';
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 
 import { DATA } from "@/data/data";
@@ -7,7 +7,7 @@ import { School } from '@/components/school';
 import { Skill } from '@/components/skill';
 import { Work } from '@/components/work';
 
-import headshot from '@/img/orange.png'
+import headshot from '@/img/orange.png';
 
 
 export default function Home() {
