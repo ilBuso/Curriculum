@@ -12,7 +12,7 @@ Welcome to my minimalist web-based curriculum vitae repository.  This project sh
 - **Minimalist aesthetic**
 
 ## How to View
-You can explore my CV [Online](https://ilbuso.github.io/Portfolio/), or explore it locally following these steps:
+You can explore my CV [Online](https://ilbuso.github.io/Curriculum/), or explore it locally following these steps:
 1. Clone the repository:
 ```bash
 git https://github.com/ilBuso/Portfolio.git
