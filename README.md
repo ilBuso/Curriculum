@@ -1,4 +1,4 @@
-# Portfolio
+# Curriculum
 
 Welcome to my minimalist web-based curriculum vitae repository.  This project showcases my professional journey with a clean and print-friendly layout. Below are the key features and instructions for exploring it.
 
