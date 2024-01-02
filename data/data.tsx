@@ -94,6 +94,7 @@ export const DATA = {
                 description: "Progetto di Algoritmi e Strutture Dati (A.A. 2023/24)",
                 link: "https://github.com/ilBuso/ASD-DescantaBauchi",
                 tag: [
+                    "Work In Progress",
                     "C++",
                     "Algoritmi",
                     "Corso Universitario",
@@ -101,7 +102,7 @@ export const DATA = {
             },
             {
                 title: "Portfolio",
-                description: "Curriculum Web (questa pagina web)",
+                description: "Curriculum Web (Questa pagina web)",
                 link: "https://github.com/ilBuso/Portfolio",
                 tag: [
                     "Next.js",
@@ -111,11 +112,12 @@ export const DATA = {
             },
             {
                 title: "Tank",
-                description: "Gioco di Carriarmati in Java",
-                link: "https://github.com/ilBuso/Tanks",
+                description: "Gioco di Carriarmati sviluppato con Godot",
+                link: "https://github.com/ilBuso/Tank",
                 tag: [
-                    "Java",
-                    "JavaFX",
+                    "Work In Progress",
+                    "Godot",
+                    "GDScript",
                     "Side Project",
                 ],
             },
@@ -124,6 +126,7 @@ export const DATA = {
                 description: "Un AndroidApp per le previsioni del meteo",
                 link: "https://github.com/ilBuso/Meteo",
                 tag: [
+                    "Future Project",
                     "Kotlin",
                     "Android Studio",
                     "Side Project",
