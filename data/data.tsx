@@ -32,7 +32,7 @@ export const DATA = {
             {
                 where: "Rifugio Dardo",
                 when: "2019 - Now",
-                role: "Camerire",
+                role: "Cameriere",
                 text: "Durante la vacanze estive lavoro come cameriere presso un rifugio nelle montagne della Lessinia",
             },
         ],
