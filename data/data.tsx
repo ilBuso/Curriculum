@@ -24,7 +24,7 @@ export const DATA = {
     },
     about: {
         title: "Profilo",
-        text: "Sono uno studente di Informatica con una grande passione per tutto il mondo del Software e Hardware. Nel tempo libero mi piace portare avanti i miei 'Side Projects' e informarmi sulle ultrime novità nel campo della tecnologia. Sono sempre aperto a nuove esperienze e ad imparare nuove cose.",
+        text: "Sono uno studente di Informatica con una grande passione per tutto il mondo del Software e Hardware. Nel tempo libero mi piace portare avanti i miei 'Side Projects' e informarmi sulle ultime novità nel campo della tecnologia. Sono sempre aperto a nuove esperienze e ad imparare nuove cose.",
     },
     work: {
         title: "Esperienze",
