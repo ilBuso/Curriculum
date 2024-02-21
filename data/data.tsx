@@ -115,7 +115,7 @@ export const DATA = {
             {
                 title: "Zombie",
                 description: "Gioco e GameEngine in c++,
-                link: "https://github.com/ilBuso/Tank",
+                link: "https://github.com/ilBuso/zombie",
                 tag: [
                     "Work In Progress",
                     "c++",
