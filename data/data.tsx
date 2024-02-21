@@ -64,7 +64,7 @@ export const DATA = {
             "Java",
             "SQL",
             "MongoDB",
-            "NextJS"
+            "NextJS",
             "Unity - GameEngine"
         ]
     },
