@@ -63,6 +63,8 @@ export const DATA = {
             "C++",
             "Java",
             "SQL",
+            "MongoDB",
+            "NextJS"
             "Unity - GameEngine"
         ]
     },
@@ -111,24 +113,15 @@ export const DATA = {
                 ],
             },
             {
-                title: "Tank",
-                description: "Gioco di Carriarmati sviluppato con Godot",
+                title: "Zombie",
+                description: "Gioco e GameEngine in c++,
                 link: "https://github.com/ilBuso/Tank",
                 tag: [
                     "Work In Progress",
-                    "Godot",
-                    "GDScript",
-                    "Side Project",
-                ],
-            },
-            {
-                title: "Meteo",
-                description: "Un AndroidApp per le previsioni del meteo",
-                link: "https://github.com/ilBuso/Meteo",
-                tag: [
-                    "Future Project",
-                    "Kotlin",
-                    "Android Studio",
+                    "c++",
+                    "Makefile",
+                    "clang-format",
+                    "SDL",
                     "Side Project",
                 ],
             },
