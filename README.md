@@ -5,7 +5,6 @@ Welcome to my minimalist web-based curriculum vitae repository.  This project sh
 ## Features
 - **Built using:**
     - Next.js 14
-    - React
     - Typescript 
     - CSS
 - **Print-friendly design**
@@ -31,9 +30,3 @@ npm run dev
 http://localhost:3000/
 ```
 Feel free to navigate through the different sections and learn more about my professional background in a minimalist and easy-to-read format.
-
-### Screenshot
-
-If you encounter any issues accessing the website, here's a screenshot:
-
-![CV](./img/screenshot.png)

@@ -4,10 +4,10 @@ import { linkedin } from '@/components/icons/linkedin'
 export const DATA = {
 
     name: "Alessandro Busola",
+    job: "Software Developer",
     description: "Studente di informatica al 2° anno presso l'università di Trento",
     location: "Verona, Italia",
     contacts: {
-        tel: "+39 3333333333", //this number is wrong don't try to call it
         email: "alessandro.busola@gmail.com",
         social: [
             {
@@ -21,10 +21,12 @@ export const DATA = {
                 icon: linkedin,
             },
         ],
+        website: "https://ilbuso.github.io/Curriculum/",
     },
     about: {
         title: "Profilo",
         text: "Sono uno studente di Informatica con una grande passione per tutto il mondo del Software e Hardware. Nel tempo libero mi piace portare avanti i miei 'Side Projects' e informarmi sulle ultime novità nel campo della tecnologia. Sono sempre aperto a nuove esperienze e ad imparare nuove cose.",
+        short_text: "Young computer science student at Università di Trento. Passionate about technology and programming. Always looking for new experiences.",
     },
     work: {
         title: "Esperienze",
@@ -65,7 +67,9 @@ export const DATA = {
             "SQL",
             "MongoDB",
             "NextJS",
-            "Unity - GameEngine"
+            "Unity - GameEngine",
+            "MarkDown",
+            "Makefile"
         ]
     },
     projects: {
@@ -99,7 +103,6 @@ export const DATA = {
                     "Work In Progress",
                     "C++",
                     "Algoritmi",
-                    "Corso Universitario",
                 ],
             },
             {

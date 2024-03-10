@@ -1,5 +1,7 @@
 import { Tag } from "./tag"
 
+import style from './components.module.css'
+
 interface elements {
     title: string;
     description: string;
@@ -9,11 +11,11 @@ interface elements {
   
 export function Project({ title, description, link, tag }: elements) {
     return (
-        <div className='prjct_item'>
+        <div className={style.prjct_item}>
             <div>
                 <a href={link}
                 target='_blank'>
-                    <div className='prjct_title'>{title}</div>
+                    <div className={style.prjct_title}>{title}</div>
                 </a>
             </div>
             <p>
