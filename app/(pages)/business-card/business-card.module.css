@@ -1,0 +1,59 @@
+/****************************************************/
+/*general*/
+.card {
+    text-align: center;
+
+    background-color: #f5f3ef;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    gap: 1rem;
+
+    align-items: center;
+
+    padding: 2rem;
+
+    border-radius: 3rem;
+}
+
+/****************************************************/
+/*sections*/
+.description > p, .description > h2 {
+    margin: 0;
+}
+
+.about {
+    font-size: small;
+}
+
+.button_container {
+    align-items: stretch;
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: space-evenly;
+    gap: 2rem;
+  
+    align-items: center;
+    justify-content: center;
+  }
+  
+.button_container > div > div > a > button {
+    background-color: white;
+}
+  
+.button_container > div > a > button > .icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.icon {
+    min-width: 1.5rem;
+    width: auto;
+
+    min-height: 1.5rem;
+    height: auto;
+}
