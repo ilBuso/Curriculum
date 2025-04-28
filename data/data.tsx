@@ -124,7 +124,6 @@ export const DATA = {
                     "Uni Course",
                     "C",
                     "MSP432",
-                    "Keyboard",
                     "PCB",
                 ],
             },
