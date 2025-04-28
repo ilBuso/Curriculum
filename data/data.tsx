@@ -5,8 +5,8 @@ export const DATA = {
 
     name: "Alessandro Busola",
     job: "Software Developer",
-    description: "Studente di informatica al 2° anno presso l'università di Trento",
-    location: "Verona, Italia",
+    description: "Computer Science at Univeristy of Trento",
+    location: "Verona, Italy",
     contacts: {
         email: "alessandro.busola@gmail.com",
         social: [
@@ -25,22 +25,28 @@ export const DATA = {
     },
     about: {
         title: "Profilo",
-        text: "Sono uno studente di Informatica con una grande passione per tutto il mondo del Software e Hardware. Nel tempo libero mi piace portare avanti i miei 'Side Projects' e informarmi sulle ultime novità nel campo della tecnologia. Sono sempre aperto a nuove esperienze e ad imparare nuove cose.",
-        short_text: "Young computer science student at Università di Trento. Passionate about technology and programming. Always looking for new experiences.",
+        text: "I am a Computer Science student with a strong passion for both software and hardware, with a particular focus on embedded systems. In my free time, I enjoy working on side projects and staying updated on the latest technological advancements. I am always eager to embrace new challenges and expand my skills.",
+        short_text: "Computer science student at University of Trento. Passionate about technology and programming. Always looking for new experiences.",
     },
     work: {
-        title: "Esperienze",
+        title: "Experiences",
         exp: [
             {
                 where: "Rifugio Dardo",
-                when: "2019 - Now",
-                role: "Cameriere",
-                text: "Durante la vacanze estive lavoro come cameriere presso un rifugio nelle montagne della Lessinia",
+                when: "2019 - 2024",
+                role: "Waiter",
+                text: "During the summer holidays, I have worked as a waiter at a mountain lodge in the Lessinia region.",
+            },
+            {
+                where: "University of Trento",
+                when: "2024 - 2025",
+                role: "Tutor",
+                text: "During the academic year, I served as a tutor for a university course.",
             },
         ],
     },
     education: {
-        title: "Educazione",
+        title: "Education",
         schools: [
             {
                 name: "ISS Calabrese-Levi",
@@ -54,7 +60,7 @@ export const DATA = {
                 type: "Univerità",
                 where: "Trento, Italia",
                 when: "2022 - Now",
-                text: "Cosro di Laurea Triennale in Informatica",
+                text: "Corso di Laurea Triennale in Informatica",
             },
         ],
     },
@@ -64,57 +70,21 @@ export const DATA = {
             "C",
             "C++",
             "Java",
-            "SQL",
+            "Rust",
+            "Bash",
+            "MySQL",
             "MongoDB",
             "NextJS",
             "Unity - GameEngine",
             "MarkDown",
-            "Makefile"
+            "Makefile",
+            "Git",
+            "GitHub",
         ]
     },
     projects: {
         title: "Progetti",
         prjct:[
-            {
-                title: "Tris",
-                description: "Gioco di Tris in C",
-                link: "https://github.com/ilBuso/Tris",
-                tag: [
-                    "C",
-                    "Makefile",
-                    "Side Project",
-                ],
-            },
-            {
-                title: "buso-ohmyzsh-theme",
-                description: "Un tema per zsh con OhMyZsh",
-                link: "https://github.com/ilBuso/buso-ohmyzsh-theme",
-                tag: [
-                    "zsh",
-                    "Color Theme",
-                    "Side Project",
-                ],
-            },
-            {
-                title: "ASD - DescantaBauchi",
-                description: "Progetto di Algoritmi e Strutture Dati (A.A. 2023/24)",
-                link: "https://github.com/ilBuso/ASD-DescantaBauchi",
-                tag: [
-                    "Work In Progress",
-                    "C++",
-                    "Algoritmi",
-                ],
-            },
-            {
-                title: "Portfolio",
-                description: "Curriculum Web (Questa pagina web)",
-                link: "https://github.com/ilBuso/Portfolio",
-                tag: [
-                    "Next.js",
-                    "TypeScript",
-                    "Side Project",
-                ],
-            },
             {
                 title: "Zombie",
                 description: "Gioco e GameEngine in c++",
@@ -125,7 +95,61 @@ export const DATA = {
                     "Makefile",
                     "clang-format",
                     "SDL",
-                    "Side Project",
+                ],
+            },
+            {
+                title: "Notes",
+                description: "CLI tool for notes",
+                link: "https://github.com/ilBuso/notes",
+                tag: [
+                    "C",
+                    "Makefile",
+                ],
+            },
+            {
+                title: "buso-ohmyzsh-theme",
+                description: "Un tema per zsh con OhMyZsh",
+                link: "https://github.com/ilBuso/buso-ohmyzsh-theme",
+                tag: [
+                    "zsh",
+                    "Color Theme",
+                    "Manjaro",
+                ],
+            },
+            {
+                title: "Orione",
+                description: "Custom MSP432 keyboard with firmware and PCB design",
+                link: "https://github.com/ilBuso/Orione",
+                tag: [
+                    "Work In Progress",
+                    "Univerisity Course",
+                    "C",
+                    "MSP432",
+                    "Keyboard",
+                    "PCB",
+                ],
+            },
+            {
+                title: "Portfolio",
+                description: "Curriculum Web (Questa pagina web)",
+                link: "https://github.com/ilBuso/Portfolio",
+                tag: [
+                    "Next.js",
+                    "TypeScript",
+                ],
+            },
+            {
+                title: "Rustastic",
+                description: "Network simulation using Drones",
+                link: "https://github.com/Rustastic",
+                tag: [
+                    "Work In Progress",
+                    "Univerisity Course",
+                    "Rust",
+                    "GitHub Organization",
+                    "Crossbeam",
+                    "GUI",
+                    "Multi-Thread",
                 ],
             },
         ],
