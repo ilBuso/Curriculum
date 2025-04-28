@@ -87,7 +87,7 @@ export const DATA = {
         prjct:[
             {
                 title: "Zombie",
-                description: "Gioco e GameEngine in c++",
+                description: "GameEngine in c++",
                 link: "https://github.com/ilBuso/zombie",
                 tag: [
                     "Work In Progress",
@@ -108,7 +108,7 @@ export const DATA = {
             },
             {
                 title: "buso-ohmyzsh-theme",
-                description: "Un tema per zsh con OhMyZsh",
+                description: "zsh theme using OhMyZsh",
                 link: "https://github.com/ilBuso/buso-ohmyzsh-theme",
                 tag: [
                     "zsh",
@@ -129,7 +129,7 @@ export const DATA = {
             },
             {
                 title: "Portfolio",
-                description: "Curriculum Web (Questa pagina web)",
+                description: "Curriculum Web",
                 link: "https://github.com/ilBuso/Portfolio",
                 tag: [
                     "Next.js",
