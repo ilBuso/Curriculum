@@ -5,7 +5,7 @@ import { DATA } from "@/data/data";
 import { Button } from '@/components/button';
 
 import style from './business-card.module.css'
-import headshot from '@/public/img/orange.png';
+import headshot from '@/public/img/profile.jpg';
 
 export default function BusinessCard() {
     return(
