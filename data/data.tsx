@@ -5,7 +5,7 @@ export const DATA = {
 
     name: "Alessandro Busola",
     job: "Software Developer",
-    description: "Computer Science at Univeristy of Trento",
+    description: "Computer Science at University of Trento",
     location: "Verona, Italy",
     contacts: {
         email: "alessandro.busola@gmail.com",
@@ -35,7 +35,13 @@ export const DATA = {
                 where: "Rifugio Dardo",
                 when: "2019 - 2024",
                 role: "Waiter",
-                text: "During the summer holidays, I have worked as a waiter at a mountain lodge in the Lessinia region.",
+                text: "During the academic year, I worked as a tutor for students from previous years, mainly in theoretical computer science and programming.",
+            },
+            {
+                where: "ISS Calabrese-Levi",
+                when: "2020 - 2021",
+                role: "Tutor",
+                text: "During the summer holidays, I worked as a waiter at a mountain lodge in the Lessinia region.",
             },
             {
                 where: "University of Trento",
@@ -57,7 +63,7 @@ export const DATA = {
             },
             {
                 name: "Università degli Studi di Trento",
-                type: "Univerità",
+                type: "Università",
                 where: "Trento, Italia",
                 when: "2022 - Now",
                 text: "Corso di Laurea Triennale in Informatica",
@@ -72,6 +78,8 @@ export const DATA = {
             "Java",
             "Rust",
             "Bash",
+            "Java",
+            "VHDL",
             "MySQL",
             "MongoDB",
             "NextJS",
@@ -98,12 +106,26 @@ export const DATA = {
                 ],
             },
             {
-                title: "Notes",
-                description: "CLI tool for notes",
-                link: "https://github.com/ilBuso/notes",
+                title: "Rustastic",
+                description: "Network simulation using Drones",
+                link: "https://github.com/Rustastic",
                 tag: [
+                    "Uni Course",
+                    "Rust",
+                    "GitHub Organization",
+                    "Crossbeam",
+                    "GUI",
+                ],
+            },
+            {
+                title: "Orione",
+                description: "Custom RPi pico keyboard with firmware and PCB design",
+                link: "https://github.com/ilBuso/Orione",
+                tag: [
+                    "Uni Course",
                     "C",
-                    "Makefile",
+                    "MSP432",
+                    "PCB",
                 ],
             },
             {
@@ -117,17 +139,6 @@ export const DATA = {
                 ],
             },
             {
-                title: "Orione",
-                description: "Custom MSP432 keyboard with firmware and PCB design",
-                link: "https://github.com/ilBuso/Orione",
-                tag: [
-                    "Uni Course",
-                    "C",
-                    "MSP432",
-                    "PCB",
-                ],
-            },
-            {
                 title: "Portfolio",
                 description: "Curriculum Web",
                 link: "https://github.com/ilBuso/Portfolio",
@@ -137,15 +148,12 @@ export const DATA = {
                 ],
             },
             {
-                title: "Rustastic",
-                description: "Network simulation using Drones",
-                link: "https://github.com/Rustastic",
+                title: "Notes",
+                description: "CLI tool for notes",
+                link: "https://github.com/ilBuso/notes",
                 tag: [
-                    "Uni Course",
-                    "Rust",
-                    "GitHub Organization",
-                    "Crossbeam",
-                    "GUI",
+                    "C",
+                    "Makefile",
                 ],
             },
         ],

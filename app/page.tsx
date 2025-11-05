@@ -10,7 +10,7 @@ import { Skill } from '@/components/skill';
 import { Work } from '@/components/work';
 import { Button } from '@/components/button';
 
-import headshot from '@/public/img/orange.png';
+import headshot from '@/public/img/profile.png';
 
 export default function Home() {
   return (
