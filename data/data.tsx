@@ -124,7 +124,7 @@ export const DATA = {
                 tag: [
                     "Uni Course",
                     "C",
-                    "MSP432",
+                    "RPi pico",
                     "PCB",
                 ],
             },
