@@ -1,8 +1,10 @@
-/**
- * @type {import('next').NextConfig}
- */
+// next.config.js
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: { unoptimized: true }
-}
+  output: 'export', // replaces "next export"
+  images: { unoptimized: true }, // needed for GitHub Pages
+  basePath: '/Curriculum',
+  assetPrefix: '/Curriculum/',
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
