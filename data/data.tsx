@@ -71,27 +71,27 @@ export const DATA = {
         ],
     },
     skill: {
-        title: "Abilità",
+        title: "Skills",
         skill: [
+            "Linux",
+            "Git",
+            "GitHub",
             "C",
             "C++",
             "Java",
             "Rust",
             "Bash",
-            "Java",
             "VHDL",
             "MySQL",
-            "MongoDB",
             "NextJS",
-            "Unity - GameEngine",
+            "Unity - Game Engine",
             "MarkDown",
             "Makefile",
-            "Git",
-            "GitHub",
+            "Docker",
         ]
     },
     projects: {
-        title: "Progetti",
+        title: "Projects",
         prjct:[
             {
                 title: "Zombie",
